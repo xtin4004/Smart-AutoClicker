@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_tutorial_name">튜토리얼</string>
+    <string name="button_text_tutorial_start_game">게임 시작</string>
+    <string name="button_text_tutorial_next">다음</string>
+    <string name="button_text_tutorial_close">닫기</string>
+    <string name="dialog_title_tutorial_completed">축하합니다</string>
+    <string name="message_tutorial_completed">튜토리얼을 완료했습니다!</string>
+    <string name="button_tutorial_completed_keep_playing">계속 해보기</string>
+    <string name="button_tutorial_completed_close">닫기</string>
+    <string name="message_score">플레이어: %1$d</string>
+    <string name="message_high_score">최고: %1$d</string>
+    <string name="message_time_left">남은 시간: %1$d</string>
+    <string name="message_click_count">클릭 횟수:\n%1$d/%2$d</string>
+    <string name="message_target_diff">목표:\n±%1$dms</string>
+    <string name="message_total_diff">합계:\n%1$sms</string>
+    <string name="message_last_diff">최근:\n%1$sms</string>
+</resources>

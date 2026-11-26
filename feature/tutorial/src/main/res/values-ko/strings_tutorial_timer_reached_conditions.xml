@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_timer_reached_conditions">타이머 도달 시</string>
+    <string name="item_desc_tutorial_timer_reached_conditions">정해진 주기마다 동작을 실행하는 방법을 배웁니다.</string>
+    <string name="message_game_tutorial_timer_reached_conditions">5초 동안 매초 버튼을 클릭하세요. 일정하게 누를수록 점수가 높아집니다!</string>
+    <string name="message_tutorial_timer_reached_conditions_step_1">타이머 도달 조건 튜토리얼에 오신 것을 환영합니다!\n\n여기서는 정해진 주기마다 동작을 실행해 봅니다. 먼저 게임을 해 보거나, 바로 시나리오 설정으로 넘어가 자동화를 시작하세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_2">트리거 이벤트는 화면 이벤트와 다른 목록에 있습니다. 트리거 이벤트 아이콘을 눌러 여세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_3">이제 만들기를 눌러 새 트리거 이벤트를 만드세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_4">보시다시피 트리거 이벤트의 구조는 화면 이벤트와 거의 같습니다. 먼저 동작을 언제 실행할지 정해야 합니다.\n\n트리거 조건 항목을 눌러 조건 목록을 여세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_5">지금은 목록이 비어 있습니다. 만들기 버튼을 눌러 새 트리거 조건을 만드세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_6">게임에서 이기려면 정해진 시간에 클릭해야 하므로, 타이머 도달 조건을 고르세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_7">타이머 도달 조건은 정해진 시간이 지나면 충족됩니다. 매초 클릭하려는 것이므로 1000ms로 합시다.\n\n\"경과 시간\" 칸에 1000을 입력하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_8">타이머 도달 조건은 기본적으로 한 번만 실행되지만, 여기서는 시작 1초 후 한 번이 아니라 매초 클릭해야 합니다.\n\n체크박스를 눌러 도달하면 조건 타이머가 다시 시작되게 하세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_9">이제 조건이 매초 충족되도록 설정되었습니다. 시나리오의 다른 요소도 처리되어야 하므로, 켜진 이벤트가 많으면 이 조건이 늦어질 수 있다는 점을 기억하세요.\n\n저장을 눌러 창을 닫고 트리거 조건 목록으로 돌아가세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_10">필요한 조건은 이것뿐입니다. 창을 닫고 트리거 이벤트 설정으로 돌아가세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_11">이제 이벤트는 언제 동작을 실행할지 알지만, 무엇을 실행할지는 아직 정하지 않았습니다. 동작 항목을 눌러 동작 목록을 여세요.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_12">조건이 충족되면(즉, 매초) 게임 버튼을 클릭해야 합니다. 새 클릭 동작을 만들고 위치를 게임 버튼에 맞추세요.\n\n만든 이벤트와 함께 이벤트 목록으로 돌아가면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_13">트리거 이벤트가 언제 무엇을 할지 알게 되었으니, 이제 시나리오를 저장하고 게임에 도전해 봅시다.\n\n시나리오를 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_timer_reached_conditions_step_14">이제 게임을 다시 시작하고, 시나리오를 실행해 Klick\'r가 대신 이기는 모습을 지켜보세요!</string>
+</resources>

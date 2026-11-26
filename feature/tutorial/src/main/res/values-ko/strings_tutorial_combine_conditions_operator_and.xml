@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_combine_conditions_operator_and">조건 연산자 AND</string>
+    <string name="item_desc_tutorial_combine_conditions_operator_and">AND 연산자로 여러 목표가 동시에 보일 때만 클릭하기</string>
+    <string name="message_game_tutorial_combine_conditions_operator_and">파란 목표와 빨간 목표가 모두 보일 때만 파란 버튼을 클릭하세요</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_1">새 규칙입니다! 이제 게임에 목표가 두 개 나옵니다. 파란 목표를 클릭해야 하지만, 파란 목표와 빨간 목표가 동시에 화면에 있을 때만 클릭해야 합니다.\n\n게임을 시작해 직접 따라갈 수 있는지 해 보세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_2">타이밍이 너무 빠듯해 손으로는 어려우니 Klick\'r를 써 봅시다.\n\n시나리오 설정 메뉴를 열고 새 화면 이벤트를 만든 뒤, 게임 목표에 대한 조건을 추가하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_3">목표마다 조건이 하나씩 필요합니다. 파란 목표부터 시작합시다.\n\n새 이미지 조건을 만들고 파란 목표를 캡처하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_4">파란 목표가 보일 때 충족되는 조건이므로 기본 설정이 모두 맞습니다. 조건을 저장하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_5">이제 빨간 목표에 대한 두 번째 조건을 추가합시다.\n\n이미지 조건을 하나 더 만들고 빨간 목표를 캡처하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_6">마찬가지로 빨간 목표가 보여야 하므로 기본 설정이 맞습니다. 조건을 저장하고 이벤트로 돌아가세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_7">조건이 두 개이면 조건 연산자가 둘을 어떻게 조합할지 정합니다. 위에 보이는 선택 항목에서 연산자를 고르세요.\n\n• AND: 모든 조건이 충족될 때만 이벤트가 실행됩니다.\n• OR: 조건 하나만 충족되면 바로 이벤트가 실행됩니다.\n\n이 게임에서는 두 목표가 동시에 화면에 있어야 하므로 AND를 고르세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_secondary_7">조건 연산자 선택</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_8">AND는 이미 기본 연산자이니 준비가 끝났습니다.\n\n이제 동작 섹션을 열고 새 클릭 동작을 만드세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_9">파란 목표를 클릭하려는 것이므로 위치 종류를 \"조건 위치\"로 고르고 파란 목표 이미지 조건을 선택하세요.\n\n끝나면 클릭을 저장하고, 이벤트와 시나리오도 저장한 뒤 게임으로 돌아가세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_10">시나리오를 실행하고 게임을 시작해 이겨 보세요!\n\n잘 안 되면 두 조건이 제대로 캡처되었는지, 클릭 시간이 1ms로 되어 있는지 다시 확인하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_and_step_11">축하합니다! AND 연산자 사용법을 익혔습니다. 이제 이벤트는 모든 조건이 동시에 충족될 때만 실행됩니다.</string>
+</resources>

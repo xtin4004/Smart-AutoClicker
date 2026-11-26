@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_scenario_title">시나리오</string>
+    <string name="accessibility_service_description">조건이 감지되었을 때 사용자가 만든 클릭을 다른 앱에 실행하려면 이 서비스가 필요합니다.\n\n이 앱은 어떤 데이터도 수집하지 않습니다. 코드는 오픈소스이니 GitHub에서 자유롭게 확인하세요!</string>
+    <string name="dialog_title_add_scenario">새 시나리오</string>
+    <string name="menu_item_title_export">내보내기</string>
+    <string name="menu_item_title_import">가져오기</string>
+    <string name="menu_item_title_select_all">모두 선택</string>
+    <string name="menu_item_title_cancel">취소</string>
+    <string name="menu_item_title_search">검색</string>
+    <string name="menu_item_title_settings">설정</string>
+    <string name="item_scenario_filter_by_name">이름</string>
+    <string name="item_scenario_filter_by_recent">최근</string>
+    <string name="item_scenario_filter_by_most_used">사용 횟수</string>
+    <string name="item_scenario_last_used_never">사용한 적 없음</string>
+    <plurals name="item_scenario_last_used_minutes">
+        <item quantity="other">%1$d분 전</item>
+    </plurals>
+    <plurals name="item_scenario_last_used_hours">
+        <item quantity="other">%1$d시간 전</item>
+    </plurals>
+    <plurals name="item_scenario_last_used_days">
+        <item quantity="other">%1$d일 전</item>
+    </plurals>
+    <string name="item_desc_dumb_scenario">일반적인 자동 클릭 방식입니다.\n화면에 클릭과 제스처를 배치하기만 하면 됩니다.</string>
+    <string name="item_desc_dumb_scenario_max_duration">%1$s 후 정지</string>
+    <string name="item_desc_dumb_scenario_max_duration_infinite">최대 시간 없음</string>
+    <string name="item_desc_dumb_scenario_repeat_count">%1$d회 반복</string>
+    <string name="item_desc_dumb_scenario_repeat_infinite">무한 반복</string>
+    <string name="item_desc_smart_scenario">이미지 감지를 이용해 복잡한 자동화를 만듭니다.</string>
+    <string name="item_desc_smart_scenario_pro_mode">광고 시청 또는 Pro 구매 필요</string>
+    <string name="item_title_dumb_scenario">심플</string>
+    <string name="item_title_smart_scenario">스마트</string>
+    <string name="message_empty_scenario_list">첫 시나리오를 만들어 휴대폰 작업 자동화를 시작하세요</string>
+    <string name="message_delete_scenario">%1$s 시나리오를 삭제합니다. 계속할까요?</string>
+    <string name="toast_denied_foreground_permission">포그라운드 서비스 권한이 거부되었습니다</string>
+    <string name="button_text_create_scenario">시나리오 만들기</string>
+    <string name="content_desc_add_scenario">새 시나리오 만들기</string>
+    <string name="default_scenario_name">기본 이름</string>
+    <string name="message_empty_image_events_scenario_list">이미지 이벤트 없음</string>
+    <string name="activity_settings_title">설정</string>
+    <string name="field_show_scenario_filters_ui_title">시나리오 필터 표시</string>
+    <string name="field_show_scenario_filters_ui_desc">시나리오 목록 화면에서 필터를 표시하거나 숨깁니다.</string>
+    <string name="field_legacy_action_ui_title">이전 방식 동작 화면</string>
+    <string name="field_legacy_action_ui_desc">동작을 목록 형태로 표시합니다. 복잡한 시나리오에 유용합니다.</string>
+    <string name="field_legacy_notification_ui_title">이전 방식 알림 화면</string>
+    <string name="field_legacy_notification_ui_desc">알림에서 아이콘 버튼 대신 시스템 버튼을 사용합니다.</string>
+    <string name="field_force_entire_screen_title">전체 화면 강제</string>
+    <string name="field_force_entire_screen_desc">화면 캡처 선택을 \"전체 화면\"으로 고정합니다. 기기에 따라 작동하지 않을 수 있습니다</string>
+    <string name="field_show_on_lock_screen_title">잠금 화면에 표시</string>
+    <string name="field_show_on_lock_screen_desc">기기가 잠겨 있을 때도 떠 있는 메뉴를 표시합니다.</string>
+    <string name="field_input_block_workaround_title">터치 화면 잠김 해제</string>
+    <string name="field_input_block_workaround_desc">안드로이드 15를 쓰는 픽셀 기기에서는 자동 클릭 앱 사용 시 터치 화면이 먹통이 될 수 있습니다.\n이 경우 여러 손가락으로 동시에 화면을 터치해야 풀립니다. 이 설정은 10초마다 이를 흉내 냅니다.</string>
+    <string name="field_privacy">개인정보 설정</string>
+    <string name="field_remove_ads">광고 제거</string>
+    <string name="field_troubleshooting">문제 해결</string>
+    <string name="dialog_condition_migration_title">데이터 변환</string>
+    <string name="message_condition_migration_desc">Klick\'r의 이미지 형식이 바뀌어 시나리오를 업데이트해야 합니다. 변환할 조건 수에 따라 몇 분 걸릴 수 있습니다.</string>
+    <string name="message_condition_migration_count">변환할 이미지 조건 %1$d개</string>
+    <string name="message_condition_migration_success">모든 이미지 조건을 변환했습니다.</string>
+    <string name="message_condition_migration_error">일부 조건을 변환하지 못했습니다. 시나리오를 확인해 주세요.</string>
+    <string name="button_condition_migration_start">변환</string>
+    <string name="button_condition_migration_running">변환 중</string>
+    <string name="button_condition_migration_finished">확인</string>
+    <string name="dialog_title_backup">백업</string>
+    <string name="message_backup">시나리오를 zip 파일로 백업하거나 가져옵니다</string>
+    <string name="button_import">가져오기</string>
+    <string name="button_export">내보내기</string>
+</resources>

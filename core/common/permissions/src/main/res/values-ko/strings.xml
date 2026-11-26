@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title_permission_accessibility">접근성 서비스</string>
+    <string name="dialog_title_permission_notification">알림</string>
+    <string name="dialog_title_permission_mandatory_denied">권한 거부됨</string>
+    <string name="dialog_title_permission_overlay">다른 앱 위에 표시</string>
+    <string name="message_permission_desc_overlay">자동화하려는 앱 위에 Klick\'r 화면을 띄우려면 \'다른 앱 위에 표시\' 권한이 필요합니다. 이 권한이 있어야 다른 앱을 멈추지 않고도 시나리오를 설정할 수 있습니다.</string>
+    <string name="message_permission_desc_accessibility">접근성 서비스 권한은 Klick\'r가 기기 화면에서 제스처를 실행할 수 있게 해 줍니다. 자동화 시나리오에서 만든 클릭과 제스처를 실행하려면 이 권한이 필요합니다.\n\nKlick\'r는 어떤 데이터도 수집하지 않습니다.\n\n접근성 서비스 권한을 허용하려면 아래 버튼을 누르세요.</string>
+    <string name="message_permission_desc_notification">선택 사항: 앱이 실행되는 동안 알림을 표시하여 시나리오 선택 화면으로 쉽게 돌아갈 수 있게 합니다.</string>
+    <string name="message_permission_mandatory_denied">이 권한은 Klick\'r에 꼭 필요합니다. 권한이 없으면 제대로 작동하지 않습니다.</string>
+    <string name="button_request_permission">권한 요청</string>
+    <string name="button_deny">거부</string>
+</resources>

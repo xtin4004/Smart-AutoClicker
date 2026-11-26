@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_screen_condition_still_target">멈춰 있는 목표 누르기</string>
+    <string name="item_desc_tutorial_screen_condition_still_target">멈춰 있는 목표를 클릭하는 첫 이벤트를 만드는 방법을 배웁니다</string>
+    <string name="message_game_tutorial_screen_condition_still_target">파란 버튼을 최대한 빨리 클릭하세요</string>
+    <string name="message_tutorial_screen_condition_still_target_step_1">첫 튜토리얼에 오신 것을 환영합니다!\n\n여기서는 Klick\'r의 도움으로 게임 최고 점수를 깨 봅니다.\n\n먼저 게임을 시작해 직접 이겨 보세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_3">어렵죠?\nKlick\'r로 이겨 봅시다!\n\n시나리오 설정 아이콘을 눌러 새 시나리오 편집을 시작하세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_4">시나리오는 Klick\'r 자동화의 최상위 구조입니다.\n\n일반 감지 설정과, 시나리오 실행 시 무엇을 할지 정하는 이벤트 목록이 들어 있습니다.\n\n이벤트 만들기 버튼을 눌러 첫 이벤트를 만드세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_5">이벤트는 특정 조건이 충족되면 어떤 동작(클릭, 제스처 등)을 실행할지 정합니다.\n\n올바른 이벤트를 만들어 시나리오에서 쓰려면 조건과 동작이 각각 하나 이상 있어야 합니다.\n\n조건 항목을 눌러 조건 목록을 여세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_6">조건은 스크린샷의 일부분으로, 기기 화면의 매 프레임과 비교됩니다.\n\n게임에서 이기려면 파란 캐릭터가 보일 때 클릭해야 하므로, 캐릭터가 화면에 표시될 때 충족되는 조건이 필요합니다.\n\n조건 만들기 버튼을 눌러 첫 조건을 만드세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_7">이 튜토리얼에서는 화면의 이미지를 감지하는 방법을 배우므로, 이미지 조건을 선택하세요</string>
+    <string name="message_tutorial_screen_condition_still_target_step_8">조건을 만드는 첫 단계는 스크린샷을 찍는 것입니다.\n\n파란 캐릭터가 보일 때 클릭하려는 것이므로 스크린샷에 캐릭터가 있어야 합니다. 게임을 다시 시작해 캐릭터를 띄운 뒤 스크린샷을 찍으세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_secondary_8">떠 있는 메뉴의 캡처 버튼으로 스크린샷을 찍으세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_9">스크린샷을 찍은 뒤 감지에 필요한 부분만 남도록 잘라낼 수 있습니다.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_secondary_9">스크린샷에 파란 캐릭터가 없으면 이 버튼을 눌러 다시 찍을 수 있습니다.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_10">이 게임에서 필요한 부분은 파란 캐릭터이므로, 캐릭터만 남도록 스크린샷을 자르세요.\n\n스크린샷을 두 손가락으로 확대하면 자르기 영역을 더 정확하게 잡을 수 있습니다.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_secondary_10">캐릭터 전체가 선택 영역 안에 들어가는지 확인하세요. 이미지 감지가 쉽도록 캐릭터에 최대한 가깝게 자르세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_11">조건 이미지가 기록되었습니다!\n\n여러 가지를 더 조정할 수 있지만, 이번처럼 기본적인 경우에는 기본 설정이면 충분합니다. 목표가 움직이지 않으므로 캡처한 위치에서만 감지하며, 화면 전체에서 감지하는 것보다 빠릅니다.\n\n저장 버튼을 눌러 등록하고 조건 목록으로 돌아가세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_12">조건 목록을 닫고 이벤트 설정으로 돌아가세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_13">이 조건으로 시나리오는 언제 동작을 실행할지 알게 되었습니다.\n\n이제 실행할 동작을 정해야 합니다. 이 게임에서는 파란 캐릭터 클릭입니다.\n\n동작 항목을 눌러 동작 목록을 여세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_14">동작은 이벤트의 조건이 충족되면 실행되는 것입니다.\n\n클릭, 제스처, 대기, 인텐트(다른 앱과의 상호작용), 시나리오 실행 변경 등이 있으며, 한 이벤트에 여러 동작을 넣을 수 있습니다.\n\n동작 만들기 버튼을 눌러 첫 동작을 만드세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_15">먼저 동작 종류를 골라야 합니다.\n\n이 게임에서는 파란 캐릭터만 클릭하면 되므로, 클릭을 골라 새 클릭 동작을 만드세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_16">클릭 동작은 위치와 누르는 시간으로 정해집니다.\n\n최대한 빨리 클릭하려는 것이므로 누르는 시간은 최솟값인 기본값 1ms 그대로 두면 됩니다. 위치만 정하면 됩니다.\n\n위치 선택 버튼을 눌러 클릭 위치를 고르세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_17">클릭할 정확한 위치를 골라야 하므로, 게임을 다시 시작해 파란 캐릭터를 띄운 뒤 위치를 고르세요.\n\n위치가 맞으면 확정 버튼을 눌러 저장하세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_secondary_17">위치 선택 화면이 보이는 동안에는 게임을 조작할 수 없지만, 이 버튼으로 선택 화면을 숨기거나 다시 표시해 언제든 제한을 풀 수 있습니다.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_18">클릭 설정이 끝났습니다!\n\n저장 버튼을 눌러 등록하고 동작 목록으로 돌아가세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_19">동작 목록을 닫고 이벤트 설정으로 돌아가세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_20">이제 이벤트에 조건과 동작이 있으니, 무엇을 언제 실행할지 알게 되었습니다.\n\n저장 버튼을 눌러 등록하고 시나리오 창으로 돌아가세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_21">시나리오에 필요한 것은 이벤트가 하나 이상 있는 것뿐입니다.\n이 이벤트로 게임에서 이기는 방법이 이미 정해졌으니 더 필요한 것은 없습니다.\n\n저장 버튼을 눌러 시나리오를 저장하고 설정 창을 닫으세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_22">보시다시피 이제 재생 버튼을 쓸 수 있습니다. 시나리오가 올바르고 감지에 사용할 수 있다는 뜻입니다.\n\n눌러서 감지를 시작하세요.</string>
+    <string name="message_tutorial_screen_condition_still_target_step_23">실행 중인데 아무 일도 없나요?\n\n정상입니다. 파란 캐릭터가 보일 때만 클릭한다고 했죠? 시나리오를 실행한 채로 게임 시작 버튼을 누르고, Klick\'r가 대신 이기는 모습을 지켜보세요!</string>
+    <string name="message_tutorial_screen_condition_still_target_step_24">축하합니다!\n\n이제 Klick\'r의 기본을 익혔습니다. 하지만 모든 상황이 이 게임처럼 간단하지는 않습니다.\n다음 튜토리얼에서 움직이는 목표를 따라가는 방법을 배워 보세요</string>
+</resources>

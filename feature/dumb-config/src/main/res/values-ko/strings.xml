@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_overlay_title_dumb_action_type">동작 종류</string>
+    <string name="dialog_overlay_title_dumb_scenario_config">시나리오</string>
+    <string name="menu_item_title_dumb_actions">동작</string>
+    <string name="menu_item_title_dumb_config">설정</string>
+    <string name="item_desc_dumb_action_duration">%1$s 동안</string>
+    <string name="item_desc_dumb_click">화면의 한 지점을 클릭</string>
+    <string name="item_desc_dumb_gesture">화면에서 복잡한 제스처 실행</string>
+    <string name="item_desc_dumb_click_details">[%2$d, %3$d] 위치에서 %1$s 동안</string>
+    <string name="item_desc_dumb_pause">실행 일시 대기</string>
+    <string name="item_desc_dumb_pause_details">%1$s 동안</string>
+    <string name="item_desc_dumb_repeat_count">%1$d회 반복</string>
+    <string name="item_desc_dumb_repeat_infinite">무한 반복</string>
+    <string name="item_title_dumb_click">클릭</string>
+    <string name="item_title_dumb_gesture">제스처</string>
+    <string name="item_title_dumb_pause">대기</string>
+    <string name="item_title_no_dumb_actions">동작 없음</string>
+    <string name="item_title_dumb_action_copy">복사</string>
+    <string name="item_desc_dumb_action_copy">다른 시나리오의 기존 동작 복사</string>
+    <string name="message_empty_dumb_action_list">만든 동작이 없습니다!</string>
+    <string name="message_empty_secondary_dumb_action_list">시나리오를 실행하려면 동작이 하나 이상 있어야 합니다</string>
+    <string name="message_dumb_brief_empty_action_list">시나리오를 실행하려면 동작이 하나 이상 있어야 합니다</string>
+    <string name="list_header_copy_dumb_action_this">이 시나리오의 동작</string>
+    <string name="list_header_copy_dumb_action_all">모든 시나리오의 동작</string>
+    <string name="search_view_hint_dumb_action_copy">동작 이름으로 검색</string>
+    <string name="input_field_label_maximum_duration">최대 실행 시간 (분)</string>
+    <string name="input_field_label_repeat_count">반복 횟수</string>
+    <string name="input_field_label_repeat_delay">반복 간격 (ms)</string>
+    <string name="content_desc_add_action">시나리오에 새 동작 추가</string>
+    <string name="content_desc_show_actions">만든 동작 표시/숨기기</string>
+    <string name="content_desc_open_action_list">동작 목록 열기</string>
+</resources>

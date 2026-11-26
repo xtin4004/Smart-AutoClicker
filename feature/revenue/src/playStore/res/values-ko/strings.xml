@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="header_starting_detection">감지 시작 중</string>
+    <string name="message_billing">이 앱은 오픈소스이며, 여가 시간을 들여 정성껏 만들어지고 있습니다.\n\n광고를 보거나 Klick\'r Pro를 구매해 광고를 영구히 없애는 것으로 개발을 후원해 주세요!</string>
+    <string name="message_billing_success">Klick\'r Pro를\n구매해 주셔서 감사합니다!</string>
+    <string name="button_text_watch_ad_loading">광고 불러오는 중</string>
+    <string name="button_text_watch_ad">광고 보기</string>
+    <string name="button_text_watch_ad_error">광고 오류</string>
+    <string name="button_text_buy_pro_loading">Pro 구매</string>
+    <string name="button_text_buy_pro">Pro 구매 (%1$s)</string>
+    <string name="button_text_understood">확인</string>
+    <string name="button_text_buy_pro_error">구매할 수 없음</string>
+    <string name="button_text_visit_github">GitHub 방문</string>
+    <string name="button_text_trial">%1$d분 체험</string>
+    <string name="button_text_buy_pro_pending">결제 대기 중</string>
+</resources>

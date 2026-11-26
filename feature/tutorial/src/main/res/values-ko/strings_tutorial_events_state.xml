@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_events_state">안 쓰는 이벤트 끄기</string>
+    <string name="item_desc_tutorial_events_state">여러 이벤트의 상태를 바꿔 복잡한 시나리오를 최적화합니다.</string>
+    <string name="message_game_tutorial_events_state">목표를 파랑, 빨강, 초록, 노랑 순서로 클릭하세요.</string>
+    <string name="message_tutorial_events_state_step_1">새 게임입니다! 이번에는 색깔 목표 네 개를 순서대로 클릭해야 합니다. 파랑, 빨강, 초록, 마지막으로 노랑입니다.\n\n먼저 게임을 해 보거나, 바로 시나리오 설정을 열어 자동화를 시작하세요.</string>
+    <string name="message_tutorial_events_state_step_2">색깔별로 목표 네 개를 감지해야 합니다. 목표마다 이벤트를 하나씩 만듭니다.\n\n파란 목표부터 시작하세요. 게임 영역 안에서 파란 목표를 감지해 클릭하는 새 이벤트를 만드세요.</string>
+    <string name="message_tutorial_events_state_step_3">이벤트가 여러 개일 때는 무엇을 하는지 알 수 있도록 이벤트 이름을 정해 두는 것이 중요합니다. 나중에 시나리오에서 쉽게 알아볼 수 있게 \"파란 목표\"처럼 알기 쉬운 이름을 붙이세요.\n\n그다음 새 이미지 조건을 만들고 파란 목표를 캡처하세요.</string>
+    <string name="message_tutorial_events_state_step_4">목표가 움직이므로 감지 방식을 \"감지 영역\"으로 바꾸고 게임 영역을 선택해야 합니다.\n\n영역을 제대로 설정했으면 저장하고 이벤트 창으로 돌아가세요.</string>
+    <string name="message_tutorial_events_state_step_5">조건을 설정했으니, 이제 이벤트가 감지된 목표를 클릭하도록 클릭 동작이 필요합니다.\n\n새 클릭 동작을 만드세요.</string>
+    <string name="message_tutorial_events_state_step_6">목표가 움직이므로 고정 위치를 쓸 수 없습니다. \"클릭 대상\"을 \"감지된 조건 위치를 클릭\"으로 바꾸고 파란 목표 조건을 선택하세요. 이렇게 하면 항상 화면에서 목표가 발견된 위치를 정확히 클릭합니다.\n\n조건을 선택했으면 클릭을 저장하고 이벤트 창으로 돌아가세요.</string>
+    <string name="message_tutorial_events_state_step_7">파란 목표 이벤트가 끝났습니다! 이제 같은 방법으로 빨간 목표 이벤트를 만드세요. 게임 영역에서 감지해 클릭하면 됩니다. 빨간 목표 이벤트를 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_events_state_step_8">좋습니다! 이제 초록 목표에도 같은 이벤트를 만드세요. 초록 목표 이벤트를 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_events_state_step_9">거의 다 됐습니다! 마지막으로 노랑 목표 이벤트를 만드세요. 노랑 목표 이벤트를 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_events_state_step_10">네 이벤트가 모두 준비되었습니다. 게임 순서대로 만들었으니 우선순위는 맞습니다.\n\n시나리오를 저장하고 게임에서 테스트해 성능을 확인하세요.</string>
+    <string name="message_tutorial_events_state_step_11">시나리오가 목표를 감지해 클릭하지만, 이기기엔 너무 느릴 겁니다.\n\n지금은 네 이벤트가 동시에 켜져 있어서, 방금 어떤 목표를 클릭했든 매 프레임 파랑, 빨강, 초록, 노랑을 모두 확인합니다. 귀한 시간이 낭비됩니다!\n\n시나리오 설정을 열어 개선 방법을 알아보세요.</string>
+    <string name="message_tutorial_events_state_step_12">각 이벤트에는 초기 상태가 있어서 켜진 상태나 꺼진 상태로 시작할 수 있습니다. 지금은 네 이벤트가 모두 켜져 있어서 매 프레임 모두 확인합니다.\n\n해결책은 현재 목표의 이벤트만 켜 두고 나머지는 끄는 것입니다. 목표를 클릭하면 그 이벤트가 다음 목표를 켜고 나머지는 모두 끕니다.\n\n파란 목표 이벤트부터 수정합시다.</string>
+    <string name="message_tutorial_events_state_step_13">파란 목표는 처음 클릭할 대상이므로 이 이벤트는 켜진 상태로 시작해야 합니다. 여기서는 바꿀 것이 없습니다.\n\n파란 목표를 클릭하면 빨간 목표 이벤트를 켜고 나머지는 끄도록 \"이벤트 상태 변경\" 동작만 추가하면 됩니다. 동작 영역을 눌러 이 동작을 추가하세요.</string>
+    <string name="message_tutorial_events_state_step_14">\"이벤트 상태 변경\" 동작 종류를 고르세요.</string>
+    <string name="message_tutorial_events_state_step_15">이 동작으로 이 이벤트가 실행될 때 시나리오의 어떤 이벤트든 상태를 바꿀 수 있습니다. \"변경 없음\" 항목을 눌러 바꿀 이벤트를 고르세요.</string>
+    <string name="message_tutorial_events_state_step_16">목록의 이벤트마다 세 가지 상태 중 하나를 고를 수 있습니다.\n• 켜기: 이벤트가 활성화되어 매 프레임 확인됩니다\n• 끄기: 이벤트가 비활성화되어 완전히 건너뜁니다\n• 반전: 실행할 때마다 켜짐과 꺼짐을 오갑니다\n\n방금 파랑을 클릭했으니 빨간 목표 이벤트는 켜고 나머지는 모두 끄세요. 끝나면 다음을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_16_secondary">이벤트 줄마다 켜기, 끄기, 전환 세 가지 옵션이 있습니다. 이 동작이 실행될 때 적용할 것을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_17">완벽합니다! 파란 목표 이벤트를 저장하세요.</string>
+    <string name="message_tutorial_events_state_step_18">이제 목록에서 빨간 목표 이벤트를 열어 같은 방법으로 설정하세요.</string>
+    <string name="message_tutorial_events_state_step_19">파란 목표 이벤트와 달리, 이 이벤트의 목표는 첫 번째가 아니므로 시나리오 시작 시 켜져 있으면 안 됩니다. 초기 상태를 사용 안 함으로 바꾸세요.</string>
+    <string name="message_tutorial_events_state_step_20">이제 이 목표를 클릭하면 다음 목표의 이벤트를 켜고 나머지는 끄도록 \"이벤트 상태 변경\" 동작을 추가하세요. 동작 영역을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_21">전환 설정: 초록 목표는 켜고 나머지는 모두 끄세요. 끝나면 다음을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_22">잘했습니다! 이제 초록 목표 이벤트를 열어 같은 방법으로 설정하세요.</string>
+    <string name="message_tutorial_events_state_step_23">초록 목표도 시작할 때 켜져 있으면 안 됩니다. 초기 상태를 사용 안 함으로 바꾸세요.</string>
+    <string name="message_tutorial_events_state_step_24">이제 초록 목표를 클릭하면 노랑 목표의 이벤트를 켜고 나머지는 끄도록 \"이벤트 상태 변경\" 동작을 추가하세요. 동작 영역을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_25">전환 설정: 노랑 목표는 켜고 나머지는 모두 끄세요. 끝나면 다음을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_26">거의 끝났습니다! 노랑 목표 이벤트를 열어 설정을 마무리하세요.</string>
+    <string name="message_tutorial_events_state_step_27">노랑 목표는 순서의 마지막이므로 역시 꺼진 상태로 시작해야 합니다. 초기 상태를 사용 안 함으로 바꾸세요.</string>
+    <string name="message_tutorial_events_state_step_28">노랑 목표 이벤트에도 \"이벤트 상태 변경\" 동작을 추가하세요. 노랑을 클릭하면 처음으로 돌아가야 하므로, 파란 목표는 켜고 나머지는 모두 끕니다. 동작 영역을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_29">전환 설정: 파란 목표는 켜고 나머지는 모두 끄세요. 이렇게 하면 순서가 무한히 반복됩니다. 끝나면 다음을 누르세요.</string>
+    <string name="message_tutorial_events_state_step_30">모든 이벤트 설정이 끝났습니다. 시나리오를 저장해 변경 사항을 적용하세요.</string>
+    <string name="message_tutorial_events_state_step_31">모든 이벤트를 설정했습니다! 시나리오를 저장한 뒤 게임을 시작하세요. 게임을 시작하기 전에 시나리오를 먼저 실행해야 합니다.\n\n시나리오에 내부 상태가 있으므로, 게임을 다시 시작할 때마다 시나리오도 다시 시작해야 이전 게임의 마지막 목표를 기다리고 있지 않습니다. 시작 버튼이 보이는지 감지해 이벤트 상태를 초기화하면 쉽게 자동화할 수 있습니다.</string>
+    <string name="message_tutorial_events_state_step_32">이겼습니다!\n\n어떤 이벤트를 켜 둘지 제어했기 때문에, 시나리오는 다음에 찾을 목표를 항상 정확히 압니다. 순서에 맞지 않는 목표를 확인하느라 프레임을 낭비하지 않습니다.\n\n이처럼 이벤트 상태 변경 동작으로 순차적이고 상태 기반인 자동화를 만들 수 있습니다.</string>
+</resources>

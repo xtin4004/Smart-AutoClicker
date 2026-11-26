@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_combine_conditions_operator_or">조건 연산자 OR</string>
+    <string name="item_desc_tutorial_combine_conditions_operator_or">OR 연산자로 화면에 먼저 나타나는 목표 클릭하기</string>
+    <string name="message_game_tutorial_combine_conditions_operator_or">목표가 화면에 나타나면 무엇이든 바로 클릭하세요</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_1">새 도전입니다! 화면에 목표 두 개가 나타날 수 있습니다. 빨간 목표는 2점, 파란 목표는 1점이니 나타나는 쪽을 최대한 빨리 클릭하세요.\n\n게임을 시작해 직접 해 보세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_2">손으로 하기엔 너무 빠르니 Klick\'r를 써 봅시다.\n\n시나리오 설정 메뉴를 열고 새 화면 이벤트를 만든 뒤, 게임 목표에 대한 조건을 추가하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_3">목표마다 조건이 하나씩 필요합니다. 파란 목표부터 시작합시다.\n\n새 이미지 조건을 만들고 파란 목표를 캡처하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_4">파란 목표가 보일 때 실행되어야 하므로 기본 설정이 모두 맞습니다. 조건을 저장하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_5">이제 빨간 목표에 대한 두 번째 조건을 추가합시다.\n\n이미지 조건을 하나 더 만들고 빨간 목표를 캡처하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_6">마찬가지로 빨간 목표가 보여야 하므로 기본 설정이 맞습니다. 조건을 저장하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_7">OR에서는 조건을 순서대로 확인하다가 처음 일치하는 조건에서 바로 이벤트가 실행되므로 조건 순서가 중요합니다.\n\n빨간 목표가 점수가 더 높으니 먼저 확인되게 합시다. « 버튼으로 빨간 조건을 파란 조건 앞으로 옮긴 뒤 이벤트 창으로 돌아가세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_8">이제 조건 연산자를 OR로 설정하세요. 어느 목표든 나타나면 바로 이벤트가 실행됩니다. 둘이 동시에 보이면 우선순위가 높은 빨간 조건이 먼저 일치합니다.\n\nOR를 고르세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_9">OR 연산자를 설정했습니다. 동작 섹션을 열고 새 클릭 동작을 만드세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_10">이벤트를 실행시킨 목표를 클릭하려는 것이므로 위치 종류를 \"조건 위치\"로 고르세요. OR에서는 한 번에 조건 하나만 감지될 수 있으므로 특정 조건을 고를 필요가 없습니다. Klick\'r가 일치한 조건의 위치를 자동으로 클릭합니다.\n\n끝나면 클릭을 저장하고, 이벤트와 시나리오도 저장한 뒤 게임으로 돌아가세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_11">시나리오를 실행하고 게임을 시작해 이겨 보세요!\n\n잘 안 되면 조건이 제대로 캡처되었는지, 클릭 시간이 1ms로 되어 있는지 다시 확인하세요.</string>
+    <string name="message_tutorial_combine_conditions_operator_or_step_12">축하합니다! OR 연산자 사용법과 조건 우선순위가 중요한 이유를 익혔습니다. 빨간 조건을 앞에 두었기 때문에, 두 목표가 동시에 보이면 Klick\'r는 항상 점수가 높은 목표를 고릅니다.</string>
+</resources>

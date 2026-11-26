@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_counters_basics">카운터 기본</string>
+    <string name="item_desc_tutorial_counters_basics">카운터 변경 동작과 카운터 도달 조건의 사용법을 배웁니다.</string>
+    <string name="message_game_tutorial_counters_basics">파란 목표를 10번 클릭한 뒤 빨간 목표를 한 번 클릭하세요</string>
+    <string name="message_tutorial_counters_basics_step_1">카운터 튜토리얼에 오신 것을 환영합니다!\n\n여기서는 파란 목표를 10번 클릭한 뒤 빨간 목표를 한 번 클릭해 횟수를 확정하고 10점을 얻는 게임을 자동화합니다. 먼저 게임을 해 보거나, 바로 시나리오 설정으로 넘어가도 됩니다.</string>
+    <string name="message_tutorial_counters_basics_step_2">먼저 파란 목표를 감지해 클릭하는 화면 이벤트를 만들어야 합니다.\n\n이벤트 만들기를 눌러 시작하세요.</string>
+    <string name="message_tutorial_counters_basics_step_3">파란 목표를 감지하는 조건부터 추가합시다. 조건 항목을 눌러 조건 목록을 열고 조건을 만드세요.\n\n조건을 만들면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_counters_basics_step_4">좋습니다! 이제 동작 항목을 눌러 파란 목표가 감지되었을 때 실행할 동작을 추가하세요.</string>
+    <string name="message_tutorial_counters_basics_step_5">먼저 파란 목표를 탭할 클릭 동작이 필요합니다. 만들기 버튼을 눌러 새 동작을 추가하세요.</string>
+    <string name="message_tutorial_counters_basics_step_6">파란 목표를 탭하도록 클릭을 설정한 뒤 동작을 저장하세요.\n\n클릭을 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_counters_basics_step_7">파란 목표를 몇 번 클릭했는지도 세야 합니다. 클릭할 때마다 1을 더하는 카운터 변경 동작으로 할 수 있습니다.\n\n만들기 버튼을 다시 눌러 두 번째 동작을 추가하세요.</string>
+    <string name="message_tutorial_counters_basics_step_8">파란 목표를 클릭할 때마다 카운터를 늘리도록 카운터 변경 동작을 고르세요.</string>
+    <string name="message_tutorial_counters_basics_step_9">먼저 어떤 카운터를 바꿀지 골라야 합니다. 카운터 선택을 눌러 카운터 목록을 여세요.</string>
+    <string name="message_tutorial_counters_basics_step_10">지금은 목록이 비어 있습니다. 만들기 버튼을 눌러 새 카운터를 만드세요. 이름을 정하고(예: \"파란 클릭\") 시작 값은 0으로 둔 뒤 저장하고 선택하세요.</string>
+    <string name="message_tutorial_counters_basics_step_11">이제 파란 목표를 클릭할 때마다 카운터가 어떻게 바뀔지 설정하세요.\n\n연산자를 +로, 값을 1로 설정하면 클릭할 때마다 카운터가 1씩 늘어납니다.\n\n그다음 동작을 저장하고 이벤트 창으로 돌아가세요.</string>
+    <string name="message_tutorial_counters_basics_step_11_secondary">값은 고정 숫자이거나 다른 카운터의 현재 값일 수 있습니다.</string>
+    <string name="message_tutorial_counters_basics_step_12">훌륭합니다! 이제 이 화면 이벤트는 감지할 때마다 파란 목표를 클릭하고 카운터를 늘립니다.\n\n이벤트를 저장하고 시나리오로 돌아가세요.</string>
+    <string name="message_tutorial_counters_basics_step_13">이제 카운터가 10이 되면 반응하는 이벤트가 필요합니다. 이런 이벤트는 화면이 아니라 다른 신호로 실행되므로 트리거 이벤트입니다.\n\n트리거 이벤트 탭을 눌러 트리거 이벤트 목록을 여세요.</string>
+    <string name="message_tutorial_counters_basics_step_14">만들기 버튼을 눌러 새 트리거 이벤트를 추가하세요.</string>
+    <string name="message_tutorial_counters_basics_step_15">화면 이벤트와 마찬가지로 트리거 이벤트에도 조건이 필요합니다. 조건 항목을 눌러 조건 목록을 열고 새 트리거 조건을 만드세요.</string>
+    <string name="message_tutorial_counters_basics_step_16">카운터가 특정 값에 도달하면 이 이벤트가 실행되도록 카운터 도달 조건을 고르세요.</string>
+    <string name="message_tutorial_counters_basics_step_17">앞에서 만든 카운터(파란 클릭을 세는 카운터)를 골라 트리거로 사용하세요.</string>
+    <string name="message_tutorial_counters_basics_step_18">이제 카운터가 10과 같을 때 조건이 충족되도록 비교를 설정하세요. 비교 연산자가 여러 가지 있지만 여기서는 같은지 확인해야 하므로 \"=\"를 고르세요. 그다음 값에 10을 입력하고 조건을 저장한 뒤 이벤트 창으로 돌아가세요.</string>
+    <string name="message_tutorial_counters_basics_step_18_secondary">비교할 값은 고정 숫자이거나 다른 카운터의 현재 값일 수 있습니다.</string>
+    <string name="message_tutorial_counters_basics_step_19">조건을 설정했습니다! 이제 카운터가 10이 되면 무엇을 할지 정해야 합니다. 동작 항목을 눌러 동작 목록을 여세요.</string>
+    <string name="message_tutorial_counters_basics_step_20">먼저 클릭 동작을 만들어 빨간 목표 위에 직접 배치해 횟수를 확정하세요.</string>
+    <string name="message_tutorial_counters_basics_step_21">빨간 목표를 탭하도록 클릭을 설정한 뒤 동작을 저장하세요. 트리거 이벤트에서는 클릭 위치를 항상 직접 지정해야 합니다.\n\n클릭을 저장하면 튜토리얼이 계속됩니다.</string>
+    <string name="message_tutorial_counters_basics_step_22">이제 카운터를 초기화할 두 번째 동작을 만드세요. 만들기 버튼을 다시 누르고 카운터 변경 동작을 고르세요.</string>
+    <string name="message_tutorial_counters_basics_step_23">파란 클릭 카운터를 0으로 설정하려는 것이므로 먼저 파란 클릭 카운터를 고르세요.</string>
+    <string name="message_tutorial_counters_basics_step_24">확정할 때마다 카운터를 초기화하도록 연산자를 =로, 값을 0으로 설정하세요. 그다음 동작을 저장하고 이벤트 창으로 돌아가 계속하세요.</string>
+    <string name="message_tutorial_counters_basics_step_25">이 트리거 이벤트는 파란 클릭이 10번 셀 때마다 빨간 목표를 클릭하고 카운터를 초기화합니다. 트리거 이벤트 목록은 화면 프레임 사이마다 화면 이벤트 목록보다 먼저 실행되므로, 카운터가 10이 되는 즉시 이 이벤트가 실행되어 빨간 목표를 클릭하고 카운터를 초기화해 다시 시작할 준비를 합니다.\n\n이벤트를 저장하고 시나리오로 돌아가세요.</string>
+    <string name="message_tutorial_counters_basics_step_26">시나리오가 완성되었습니다! 파란 목표를 클릭하며 횟수를 세고, 10번마다 빨간 목표로 확정한 뒤 다시 시작합니다.\n\n시나리오를 저장해 설정을 적용하세요.</string>
+    <string name="message_tutorial_counters_basics_step_27">준비가 끝났습니다! 시나리오를 실행한 뒤 게임을 시작하고, Klick\'r가 대신 횟수를 세는 모습을 지켜보세요.</string>
+    <string name="message_tutorial_counters_basics_step_28">잘했습니다! 카운터로 여러 이벤트에 걸쳐 값을 기록하는 방법을 익혔습니다.\n\n카운터 변경 동작과 카운터 도달 조건을 함께 쓰면 반복되는 패턴에 반응하는 자동화를 만들 수 있습니다.</string>
+</resources>

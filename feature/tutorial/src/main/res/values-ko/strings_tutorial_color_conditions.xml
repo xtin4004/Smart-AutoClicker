@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_title_tutorial_color_conditions">특정 픽셀의 색 감지하기</string>
+    <string name="item_desc_tutorial_color_conditions">화면에서 특정 색을 감지하고, 나타나면 클릭하는 방법을 배웁니다</string>
+    <string name="message_game_tutorial_color_conditions">파란 버튼을 최대한 빨리 클릭하세요</string>
+    <string name="message_tutorial_color_conditions_step_1">색상 조건 튜토리얼에 오신 것을 환영합니다!\n\n여기서는 Klick\'r의 도움으로 게임 최고 점수를 깨 봅니다.\n\n먼저 \'게임 시작\'을 눌러 직접 해 보거나, 바로 시나리오 설정으로 넘어가도 됩니다.</string>
+    <string name="message_tutorial_color_conditions_step_2">다른 화면 조건과 마찬가지로, 먼저 화면 이벤트를 만들어야 합니다.</string>
+    <string name="message_tutorial_color_conditions_step_3">이제 조건 항목을 눌러 조건 목록을 여세요.</string>
+    <string name="message_tutorial_color_conditions_step_4">조건을 만들어야 합니다. 만들기를 누르세요.</string>
+    <string name="message_tutorial_color_conditions_step_5">이 튜토리얼에서는 화면의 색을 감지하는 방법을 배우므로, 색상 조건을 선택하세요</string>
+    <string name="message_tutorial_color_conditions_step_6">조건을 만드는 첫 단계는 스크린샷을 찍고 색을 고르는 것입니다.\n\n파란 버튼이 보일 때 클릭하려는 것이므로 스크린샷에 버튼이 있어야 합니다. 게임을 다시 시작해 버튼을 띄운 뒤 스크린샷을 찍으세요.</string>
+    <string name="message_tutorial_color_conditions_step_secondary_6">떠 있는 메뉴의 캡처 버튼으로 스크린샷을 찍으세요.</string>
+    <string name="message_tutorial_color_conditions_step_7">이제 색을 감시할 픽셀을 고를 수 있습니다. 화면을 직접 눌러 픽셀을 고르면, 확대 화면이 나타나 위치를 확인할 수 있습니다.</string>
+    <string name="message_tutorial_color_conditions_step_secondary_7">확대 화면을 눌러 픽셀을 더 정확하게 고를 수 있습니다.</string>
+    <string name="message_tutorial_color_conditions_step_8">게임에서 이기려면 그 부분을 감지해야 하므로, 목표의 초록색이나 파란색 부분을 고르세요.</string>
+    <string name="message_tutorial_color_conditions_step_secondary_8">픽셀을 제대로 골랐으면 이 아이콘을 눌러 확정하세요.</string>
+    <string name="message_tutorial_color_conditions_step_9">조건의 색이 기록되었습니다!\n\n여러 가지를 더 조정할 수 있지만, 이번처럼 기본적인 경우에는 기본 설정이면 충분합니다.\n\n저장 버튼을 눌러 등록하고 조건 목록으로 돌아가세요.</string>
+    <string name="message_tutorial_color_conditions_step_10">조건 목록을 닫고 이벤트 설정으로 돌아가세요.</string>
+    <string name="message_tutorial_color_conditions_step_11">이 조건으로 시나리오는 언제 동작을 실행할지 알게 되었습니다.\n\n이제 실행할 동작을 정해야 합니다. 이 게임에서는 파란 버튼 클릭입니다.\n\n동작 항목을 눌러 동작 목록을 여세요.</string>
+    <string name="message_tutorial_color_conditions_step_12">동작은 이벤트의 조건이 충족되면 실행되는 것입니다.\n\n클릭, 제스처, 대기, 인텐트(다른 앱과의 상호작용), 시나리오 실행 변경 등이 있으며, 한 이벤트에 여러 동작을 넣을 수 있습니다.\n\n동작 만들기 버튼을 눌러 첫 동작을 만드세요.</string>
+    <string name="message_tutorial_color_conditions_step_13">먼저 동작 종류를 골라야 합니다.\n\n이 게임에서는 파란 버튼만 클릭하면 되므로, 클릭을 골라 새 클릭 동작을 만드세요.</string>
+    <string name="message_tutorial_color_conditions_step_14">클릭 동작은 위치와 누르는 시간으로 정해집니다.\n\n최대한 빨리 클릭하려는 것이므로 누르는 시간은 최솟값인 기본값 1ms 그대로 두면 됩니다. 위치만 정하면 됩니다.\n\n위치 선택 버튼을 눌러 클릭 위치를 고르세요.</string>
+    <string name="message_tutorial_color_conditions_step_15">클릭할 정확한 위치를 골라야 하므로, 게임을 다시 시작해 파란 버튼을 띄운 뒤 위치를 고르세요.\n\n위치가 맞으면 확정 버튼을 눌러 저장하세요.</string>
+    <string name="message_tutorial_color_conditions_step_secondary_15">위치 선택 화면이 보이는 동안에는 게임을 조작할 수 없지만, 이 버튼으로 선택 화면을 숨기거나 다시 표시해 언제든 제한을 풀 수 있습니다.</string>
+    <string name="message_tutorial_color_conditions_step_16">클릭 설정이 끝났습니다!\n\n저장 버튼을 눌러 등록하고 동작 목록으로 돌아가세요.</string>
+    <string name="message_tutorial_color_conditions_step_17">동작 목록을 닫고 이벤트 설정으로 돌아가세요.</string>
+    <string name="message_tutorial_color_conditions_step_18">이제 이벤트에 조건과 동작이 있으니, 무엇을 언제 실행할지 알게 되었습니다.\n\n저장 버튼을 눌러 등록하고 시나리오 창으로 돌아가세요.</string>
+    <string name="message_tutorial_color_conditions_step_19">시나리오에 필요한 것은 이벤트가 하나 이상 있는 것뿐입니다.\n이 이벤트로 게임에서 이기는 방법이 이미 정해졌으니 더 필요한 것은 없습니다.\n\n저장 버튼을 눌러 시나리오를 저장하고 설정 창을 닫으세요.</string>
+    <string name="message_tutorial_color_conditions_step_20">보시다시피 이제 재생 버튼을 쓸 수 있습니다. 시나리오가 올바르고 감지에 사용할 수 있다는 뜻입니다.\n\n눌러서 감지를 시작하세요.</string>
+    <string name="message_tutorial_color_conditions_step_21">실행 중인데 아무 일도 없나요?\n\n정상입니다. 파란 버튼이 보일 때만 클릭한다고 했죠? 시나리오를 실행한 채로 게임 시작 버튼을 누르고, Klick\'r가 대신 이기는 모습을 지켜보세요!</string>
+    <string name="message_tutorial_color_conditions_step_22">축하합니다!\n\n이제 Klick\'r의 기본을 익혔습니다. 하지만 모든 상황이 이 게임처럼 간단하지는 않습니다.\n다른 튜토리얼에서 더 많은 활용법을 알아보세요.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_label_start_scenario">Klick\'r 시작</string>
+    <string name="tile_label_stop_scenario">Klick\'r 정지</string>
+    <string name="tile_subtext_unavailable">만든 시나리오 없음</string>
+</resources>

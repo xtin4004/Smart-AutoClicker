@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_move_to_title">위치 이동</string>
+    <string name="dialog_move_to_position_label">순번</string>
+    <string name="overlay_instructions_gesture_record">제스처 녹화 중…</string>
+</resources>
